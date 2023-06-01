@@ -1,5 +1,12 @@
 # @backstage/plugin-kubernetes-backend
 
+## 0.11.1-next.2
+
+### Patch Changes
+
+- 4249f4214f9f: Fixed bug in KubernetesProxy where Host header was not propagated, leading to certificate issues
+- 5e4879d80f4d: Fixed wrong `pluginID` in the `kubernetes` alpha backend support, that made the `kubernetes` plugin fail with the new experimental backend.
+
 ## 0.11.1-next.1
 
 ### Patch Changes
